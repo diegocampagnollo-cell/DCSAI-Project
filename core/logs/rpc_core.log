@@ -1,0 +1,101 @@
+2025-11-10 10:58:09,810 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 10:58:42,390 [INFO] Cliente conectado ('127.0.0.1', 51417)
+2025-11-10 10:58:42,390 [INFO] Notification from ('127.0.0.1', 51417): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 10:58:42,390 [INFO] Peer ('127.0.0.1', 51417) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 10:58:42,390 [INFO] Notification from ('127.0.0.1', 51417): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 10:58:42,391 [INFO] Peer ('127.0.0.1', 51417) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 11:10:36,127 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 11:11:25,492 [INFO] RPC Server stopped by user
+2025-11-10 11:11:29,684 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 11:14:20,727 [INFO] <Server sockets=(<asyncio.TransportSocket fd=320, family=2, type=1, proto=6, laddr=('0.0.0.0', 22000)>,)> is serving
+2025-11-10 11:14:20,727 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 11:15:03,972 [INFO] <Server sockets=(<asyncio.TransportSocket fd=308, family=2, type=1, proto=6, laddr=('0.0.0.0', 22000)>,)> is serving
+2025-11-10 11:15:03,972 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 11:36:46,987 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 11:37:12,425 [INFO] Cliente conectado ('127.0.0.1', 51645)
+2025-11-10 11:37:12,425 [INFO] Notification from ('127.0.0.1', 51645): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 11:37:12,426 [INFO] Peer ('127.0.0.1', 51645) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 11:37:12,426 [INFO] Notification from ('127.0.0.1', 51645): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 11:37:12,426 [INFO] Peer ('127.0.0.1', 51645) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 12:27:34,674 [INFO] RPC Server listening on 0.0.0.0:22000
+2025-11-10 12:28:07,181 [INFO] Cliente conectado ('127.0.0.1', 51914)
+2025-11-10 12:28:07,182 [INFO] Notification from ('127.0.0.1', 51914): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 12:28:07,182 [INFO] Peer ('127.0.0.1', 51914) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 12:28:07,184 [INFO] Notification from ('127.0.0.1', 51914): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 12:28:07,184 [INFO] Peer ('127.0.0.1', 51914) capabilities = ['panel_ui', 'exec_cmd', 'show_alert']
+2025-11-10 12:35:28,869 [INFO] Conexão finalizada: ('127.0.0.1', 51914)
+2025-11-10 12:35:28,870 [INFO] RPC Server stopped by user
+2025-11-10 12:41:37,463 [INFO] [RPC] Servidor RPC embutido iniciado em background
+2025-11-10 13:41:56,382 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 13:41:56,383 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 13:42:18,779 [INFO] Client connected ('127.0.0.1', 52673)
+2025-11-10 13:42:18,780 [INFO] Notification from ('127.0.0.1', 52673): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 13:42:18,781 [INFO] Notification from ('127.0.0.1', 52673): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 13:59:48,605 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 13:59:48,607 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 14:08:13,121 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 14:08:13,122 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 14:17:44,570 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 14:18:06,154 [INFO] Client connected ('127.0.0.1', 53009)
+2025-11-10 14:18:06,157 [INFO] Notification from ('127.0.0.1', 53009): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 14:18:06,159 [INFO] Notification from ('127.0.0.1', 53009): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 14:19:49,310 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 14:19:49,312 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 14:20:04,925 [INFO] Client connected ('127.0.0.1', 53027)
+2025-11-10 14:20:04,927 [INFO] Notification from ('127.0.0.1', 53027): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 14:20:04,928 [INFO] Notification from ('127.0.0.1', 53027): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 14:59:27,036 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 14:59:27,045 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 14:59:57,263 [INFO] Client connected ('127.0.0.1', 53577)
+2025-11-10 14:59:57,263 [INFO] Notification from ('127.0.0.1', 53577): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 14:59:57,263 [INFO] Notification from ('127.0.0.1', 53577): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 15:19:15,444 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 15:19:15,449 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-10 15:19:32,489 [INFO] Client connected ('127.0.0.1', 53796)
+2025-11-10 15:19:32,493 [INFO] Notification from ('127.0.0.1', 53796): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 15:19:32,493 [INFO] Notification from ('127.0.0.1', 53796): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-10 20:49:03,886 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-10 20:49:03,886 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-11 09:42:31,394 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-11 09:42:31,394 [INFO] [CORE][RPC] Listening on 0.0.0.0:22888
+2025-11-11 10:18:53,078 [INFO] RPCServer.start_server(0.0.0.0,22888) called
+2025-11-11 10:18:59,627 [INFO] Client connected ('127.0.0.1', 51195)
+2025-11-11 10:18:59,628 [INFO] Notification from ('127.0.0.1', 51195): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 10:18:59,629 [INFO] Notification from ('127.0.0.1', 51195): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 10:26:52,992 [INFO] Client disconnected ('127.0.0.1', 51195)
+2025-11-11 10:28:07,589 [INFO] Client connected ('127.0.0.1', 51268)
+2025-11-11 10:28:07,591 [INFO] Notification from ('127.0.0.1', 51268): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 10:28:07,593 [INFO] Notification from ('127.0.0.1', 51268): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 11:03:52,716 [INFO] Client disconnected ('127.0.0.1', 51268)
+2025-11-11 11:09:46,876 [INFO] Client connected ('127.0.0.1', 51714)
+2025-11-11 11:09:46,877 [INFO] Notification from ('127.0.0.1', 51714): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 11:09:46,878 [INFO] Notification from ('127.0.0.1', 51714): capability_announce {'capabilities': ['panel_ui', 'exec_cmd', 'show_alert']}
+2025-11-11 11:12:27,977 [ERROR] Client handler error
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\core\rpc_core.py", line 95, in _serve_client
+    writer.write((json.dumps(note) + "\n").encode())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\core\rpc_core.py", line 32, in read_message
+    if host: self.host = host
+      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível

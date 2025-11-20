@@ -1,0 +1,9 @@
+{
+    "127.0.0.1:22001": {
+        "dcs_id": "127.0.0.1:22001",
+        "addr": "127.0.0.1:22001"
+    }
+} KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0g51RuorOvtdlkv0Yux/\nExAJy6+3EaBRBNH0Ycapbe3Y03eG9bCLdkI1yNYv1pPdxxv1sgEz+RRe+I42S2xz\nb23BRMLSg9gHUkOpZ6qSuKMPSBMBq5cJqhb4g1xT0x3DPFbz05oA7GGi/6G/RKAp\nD+fynnawnmPmIPPGSLvpNBaVnapWj2bJ9XBwyewTGtWUgelpj45g9WhJK3mZTdvd\nf3/fiqMpzg/oxIJuDCuR9YtzRE7EEuNUSxnR7FoDbctpRjy4+4pneCuysNWWD4b5\nQDd3X4ZgwR9AdSX2TziS7WeuYehBaaugPGykiCJOVq50rnddKYzD43Jfr/zJze8L\nNwIDAQAB\n-----END PUBLIC KEY-----\n",
+        "addr": "127.0.0.1:56285"
+    }
+}

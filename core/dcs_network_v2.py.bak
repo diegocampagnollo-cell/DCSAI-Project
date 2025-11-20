@@ -1,0 +1,264 @@
+# -*- coding: utf-8 -*-
+"""
+DCSNetworkV2 — Autodiscovery híbrido + TCP server + hooks
+API:
+ - register_state_listener(fn)
+ - register_command_handler(fn)
+ - dispatch_state(state)
+ - dispatch_command(cmd)
+ - start()/stop()
+"""
+import socket
+import threading
+import json
+import time
+import os
+import traceback
+
+ROOT = os.path.dirname(__file__)
+DATA_DIR = os.path.join(os.path.dirname(ROOT), "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+LAST_STATE_FILE = os.path.join(DATA_DIR, "last_peer_state.json")
+
+UDP_BEACON_PORT = 23000
+UDP_BEACON_INTERVAL = 3.0
+
+
+class DCSNetworkV2:
+    def __init__(self, mode="auto", host="0.0.0.0", port=22000, backlog=5):
+        self.mode = mode
+        self.host = host
+        self.port = port
+        self.backlog = backlog
+        self.sock = None
+        self.running = False
+        self._threads = []
+        self._lock = threading.Lock()
+        self._connections = set()
+
+        # hooks
+        self._state_listeners = []
+        self._command_handlers = []
+
+        # discovery sockets
+        self._udp_sock = None
+        self._peers = set()
+
+    # registration
+    def register_state_listener(self, fn):
+        if callable(fn):
+            self._state_listeners.append(fn)
+
+    def unregister_state_listener(self, fn):
+        try:
+            self._state_listeners.remove(fn)
+        except Exception:
+            pass
+
+    def register_command_handler(self, fn):
+        if callable(fn):
+            self._command_handlers.append(fn)
+
+    def unregister_command_handler(self, fn):
+        try:
+            self._command_handlers.remove(fn)
+        except Exception:
+            pass
+
+    def dispatch_state(self, state: dict):
+        try:
+            with open(LAST_STATE_FILE, "w", encoding="utf-8") as f:
+                json.dump(state, f, indent=2, ensure_ascii=False)
+        except Exception:
+            pass
+        for fn in list(self._state_listeners):
+            try:
+                fn(state)
+            except Exception:
+                traceback.print_exc()
+
+    def dispatch_command(self, cmd: dict):
+        results = []
+        for fn in list(self._command_handlers):
+            try:
+                res = fn(cmd)
+                results.append(res)
+            except Exception:
+                traceback.print_exc()
+        return results
+
+    # lifecycle
+    def start(self):
+        self.running = True
+        t = threading.Thread(target=self._start_server, daemon=True, name="DCSNetworkV2-TCP")
+        t.start()
+        self._threads.append(t)
+
+        if self.mode == "auto":
+            t1 = threading.Thread(target=self._udp_beacon_loop, daemon=True, name="DCSNetworkV2-UDP-BC")
+            t2 = threading.Thread(target=self._udp_listen_loop, daemon=True, name="DCSNetworkV2-UDP-LISTEN")
+            t1.start(); t2.start()
+            self._threads += [t1, t2]
+
+        print(f"[DCS114] Server listening on {self.host}:{self.port} (mode={self.mode})")
+
+    def stop(self):
+        self.running = False
+        try:
+            if self.sock:
+                self.sock.close()
+        except Exception:
+            pass
+        try:
+            if self._udp_sock:
+                self._udp_sock.close()
+        except Exception:
+            pass
+        print("[DCS114] Network stopped")
+
+    # TCP server
+    def _start_server(self):
+        try:
+            self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            self.sock.bind((self.host, self.port))
+            self.sock.listen(self.backlog)
+        except Exception as e:
+            print(f"[DCS114] Failed to bind TCP server: {e}")
+            return
+
+        while self.running:
+            try:
+                conn, addr = self.sock.accept()
+                self._connections.add(addr)
+                print(f"[DCS114] Connection from {addr}")
+                t = threading.Thread(target=self._handle_client, args=(conn, addr), daemon=True)
+                t.start(); self._threads.append(t)
+            except Exception:
+                time.sleep(0.1)
+
+    def _handle_client(self, conn, addr):
+        buf = b""
+        try:
+            while self.running:
+                chunk = conn.recv(4096)
+                if not chunk:
+                    break
+                buf += chunk
+                try:
+                    txt = buf.decode("utf-8", errors="ignore").strip()
+                except Exception:
+                    txt = ""
+                if not txt:
+                    continue
+                for line in txt.splitlines():
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        payload = json.loads(line)
+                    except Exception:
+                        try:
+                            payload = json.loads(txt)
+                        except Exception:
+                            payload = None
+                    if payload:
+                        self._on_peer_message(conn, addr, payload)
+                buf = b""
+        except Exception as e:
+            msg = str(e)
+            if "10053" in msg or "10054" in msg or isinstance(e, (ConnectionResetError, BrokenPipeError)):
+                print(f"[DCS114] Local loopback {addr} disconnected (normal).")
+            else:
+                print(f"[DCS114] Handler error for {addr}: {e}")
+        finally:
+            try:
+                conn.close()
+            except Exception:
+                pass
+            if addr in self._connections:
+                self._connections.remove(addr)
+            print(f"[DCS114] Connection closed: {addr}")
+
+    def _on_peer_message(self, conn, addr, payload: dict):
+        t = payload.get("type", "").upper() if isinstance(payload, dict) else ""
+        if t in ("STATE", "STATE_PUSH"):
+            state = payload.get("state", payload)
+            self.dispatch_state(state)
+            print(f"[SYNC] Pushed state to {addr[0]}:{self.port}")
+        elif t in ("CMD", "COMMAND", "EXEC"):
+            cmd = payload.get("cmd", payload)
+            res = self.dispatch_command(cmd)
+            try:
+                resp = {"type": "CMD_ACK", "result": res}
+                conn.send((json.dumps(resp, ensure_ascii=False) + "\n").encode())
+            except Exception:
+                pass
+        else:
+            print(f"[SYNC] Received from {addr}: {str(payload)[:200]}")
+
+    # UDP discovery
+    def _udp_beacon_loop(self):
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+            self._udp_sock = s
+            payload = json.dumps({"type": "BEACON", "host": self.host, "port": self.port})
+            while self.running:
+                try:
+                    s.sendto(payload.encode("utf-8"), ("<broadcast>", UDP_BEACON_PORT))
+                except Exception:
+                    try:
+                        s.sendto(payload.encode("utf-8"), ("127.255.255.255", UDP_BEACON_PORT))
+                    except Exception:
+                        pass
+                time.sleep(UDP_BEACON_INTERVAL)
+        except Exception as e:
+            print(f"[DCS114] UDP beacon failed: {e}")
+
+    def _udp_listen_loop(self):
+        try:
+            ls = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            ls.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            try:
+                ls.bind(("0.0.0.0", UDP_BEACON_PORT))
+            except Exception:
+                ls.bind(("127.0.0.1", UDP_BEACON_PORT))
+            while self.running:
+                try:
+                    data, addr = ls.recvfrom(4096)
+                    try:
+                        obj = json.loads(data.decode("utf-8", errors="ignore"))
+                        if obj.get("type") == "BEACON":
+                            peer = (addr[0], int(obj.get("port", self.port)))
+                            if peer not in self._peers:
+                                self._peers.add(peer)
+                                print(f"[DISCOVERY] Found peer {peer}")
+                    except Exception:
+                        pass
+                except Exception:
+                    time.sleep(0.1)
+        except Exception as e:
+            print(f"[DCS114] UDP listen failed: {e}")
+
+    # convenience: connect to peer and send cmd
+    def tcp_send_cmd(self, host, port, cmd_obj, timeout=3.0):
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(timeout)
+            s.connect((host, port))
+            payload = {"type": "CMD", "cmd": cmd_obj}
+            s.send((json.dumps(payload, ensure_ascii=False) + "\n").encode("utf-8"))
+            try:
+                data = s.recv(4096)
+                if data:
+                    try:
+                        return json.loads(data.decode("utf-8", errors="ignore").strip())
+                    except Exception:
+                        return {"raw": data.decode("utf-8", errors="ignore")}
+            except Exception:
+                pass
+            finally:
+                s.close()
+        except Exception as e:
+            return {"error": str(e)}

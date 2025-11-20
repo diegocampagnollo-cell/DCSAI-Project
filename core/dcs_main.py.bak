@@ -1,0 +1,200 @@
+# -*- coding: utf-8 -*-
+"""
+DCs.AI core entrypoint — integrated (Auto mode)
+Start with: python -u dcs_main.py   (run from core folder)
+"""
+import os
+import sys
+import threading
+import time
+import asyncio
+import inspect
+from datetime import datetime
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT_PARENT = os.path.dirname(ROOT)
+if ROOT_PARENT not in sys.path:
+    sys.path.insert(0, ROOT_PARENT)
+
+from core.dcs_state_sync import StateSync
+from core.dcs_network_v2 import DCSNetworkV2
+
+# optional modules
+try:
+    from core.dcs_monitor import DCSMonitor
+    from core.dcs_autocorrect import DCSAutoCorrect
+except Exception:
+    class DCSMonitor:
+        def __init__(self, name="dcs_monitor"): pass
+        def start(self, interval=1.0, cycles=0):
+            while False: time.sleep(1)
+        def stop(self): pass
+    class DCSAutoCorrect:
+        def __init__(self, name="dcs_autocorrect"): pass
+        def start(self, cycles=0, delay=1.0):
+            while False: time.sleep(1)
+        def stop(self): pass
+
+LOG_DIR = os.path.join(os.path.dirname(__file__), "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+LAUNCH_LOG = os.path.join(LOG_DIR, "dcs_log.txt")
+
+MODE = os.getenv("DCS_NETWORK_MODE", "auto")  # 'auto' or 'server'
+
+
+def write_launch(msg: str):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        with open(LAUNCH_LOG, "a", encoding="utf-8") as f:
+            f.write(f"[{ts}] {msg}\n")
+    except Exception:
+        pass
+    print(msg)
+
+
+# embedded RPC starter (compat wrapper)
+def start_rpc_embedded():
+    async def _auto_start():
+        try:
+            from core import rpc_core
+        except Exception as e:
+            print(f"[RPC] Falha ao importar rpc_core: {e}")
+            return
+
+        # instantiate and register
+        try:
+            rpc = rpc_core.RPCServer()
+            rpc_core.last_rpc_instance = rpc
+        except Exception as e:
+            print(f"[RPC] Erro ao instanciar RPCServer: {e}")
+            return
+
+        # detect signature
+        has_host_args = False
+        try:
+            sig = inspect.signature(rpc.__init__)
+            has_host_args = any(p.name in ("host", "port") for p in sig.parameters.values())
+        except Exception:
+            pass
+
+        try:
+            if has_host_args:
+                print("[RPC] Detected modern signature: RPCServer(host, port)")
+                rpc = rpc_core.RPCServer(host="0.0.0.0", port=22888)
+                rpc_core.last_rpc_instance = rpc
+                if hasattr(rpc, "start"):
+                    await rpc.start()
+                elif hasattr(rpc, "start_server"):
+                    await rpc.start_server()
+            else:
+                print("[RPC] Detected legacy signature: RPCServer()")
+                if hasattr(rpc, "start_server"):
+                    await rpc.start_server("0.0.0.0", 22888)
+                elif hasattr(rpc, "start"):
+                    await rpc.start()
+            print("[RPC] Servidor RPC embutido iniciado com sucesso em 0.0.0.0:22888")
+        except Exception as e:
+            print(f"[RPC] Falha ao iniciar RPC: {e}")
+
+    def _runner():
+        try:
+            asyncio.run(_auto_start())
+        except Exception as e:
+            print(f"[RPC] Embedded runner error: {e}")
+
+    t = threading.Thread(target=_runner, name="RPC-Server", daemon=True)
+    t.start()
+    print("[RPC] Thread RPC-Server iniciada (modo compatível)")
+
+
+def run_core():
+    write_launch("Starting DCs.AI core (final)...")
+
+    # network manager (auto hybrid)
+    net = DCSNetworkV2(mode=MODE, host="0.0.0.0", port=22000)
+    net.start()
+    write_launch("Network manager started (server/hybrid)")
+
+    # RPC embedded
+    try:
+        start_rpc_embedded()
+        write_launch("[RPC] Embedded RPC starter launched")
+    except Exception as e:
+        write_launch(f"[RPC] Falha ao iniciar starter: {e}")
+
+    # Bridge: network -> rpc (state broadcasting)
+    try:
+        from core import rpc_core
+
+        def _broadcast_state_to_rpc(state: dict):
+            try:
+                inst = getattr(rpc_core, "last_rpc_instance", None)
+                if inst and hasattr(inst, "broadcast"):
+                    try:
+                        # schedule async broadcast (safe)
+                        loop = asyncio.get_event_loop()
+                        loop.call_soon_threadsafe(asyncio.create_task, inst.broadcast("state_update", state))
+                        return
+                    except Exception:
+                        pass
+                # fallback: call send_all_sync if exists
+                if hasattr(rpc_core, "send_all_sync"):
+                    try:
+                        rpc_core.send_all_sync({"type": "notification", "method": "state_update", "params": state})
+                        return
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+
+        net.register_state_listener(_broadcast_state_to_rpc)
+        print("[BRIDGE] Registered network → RPC state broadcaster")
+    except Exception as e:
+        print(f"[BRIDGE] RPC bridging not configured: {e}")
+
+    # Bridge: rpc_panel -> core commands
+    def _command_handler(cmd: dict):
+        print(f"[BRIDGE][RX] command -> {cmd}")
+        try:
+            action = cmd.get("action")
+            if action == "ping":
+                return {"pong": True}
+            if action == "state_push":
+                net.dispatch_state(cmd.get("state", {}))
+                return {"ok": True}
+            return {"handled": True, "cmd": cmd}
+        except Exception as e:
+            return {"error": str(e)}
+
+    net.register_command_handler(_command_handler)
+    print("[BRIDGE] Registered network command handler (rpc_panel -> core)")
+
+    # state sync
+    state_sync = StateSync(interval=20)
+    state_sync.start()
+    write_launch("StateSync started")
+
+    # start modules
+    monitor = DCSMonitor()
+    autocorrect = DCSAutoCorrect()
+    t_mon = threading.Thread(target=monitor.start, kwargs={"interval": 1.0, "cycles": 0}, daemon=True)
+    t_auto = threading.Thread(target=autocorrect.start, kwargs={"cycles": 0, "delay": 1.0}, daemon=True)
+    t_mon.start(); t_auto.start()
+    write_launch("Modules started")
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        write_launch("Shutdown requested")
+        try:
+            monitor.stop(); autocorrect.stop()
+        except Exception:
+            pass
+        state_sync.stop()
+        net.stop()
+        write_launch("Core shutdown complete")
+
+
+if __name__ == "__main__":
+    run_core()

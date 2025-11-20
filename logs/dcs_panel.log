@@ -1,0 +1,1415 @@
+2025-11-09 02:01:20,472 [INFO] Iniciando DCS.AI Panel
+2025-11-09 02:01:20,604 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:22,657 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:24,662 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:26,686 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:28,688 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:30,733 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:32,736 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:34,767 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:36,768 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:38,814 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:40,816 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:42,852 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:44,853 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:46,886 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:48,887 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:50,966 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:52,974 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:55,026 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:01:57,027 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:01:59,075 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:01,077 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:03,132 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:05,134 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:07,175 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:09,177 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:11,214 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:13,216 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:15,257 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:17,258 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:19,297 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:21,298 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:23,318 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:25,319 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:27,349 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:29,351 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:31,398 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:33,400 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:35,427 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:37,428 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:39,462 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:41,463 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:43,475 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:45,476 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:47,520 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:49,521 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:51,541 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:53,542 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:55,578 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:02:57,579 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:02:59,614 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:01,615 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:03,653 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:05,654 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:07,672 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:09,674 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:11,711 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:13,712 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:15,722 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:17,724 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:19,752 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:21,753 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:23,783 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:25,785 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:27,790 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:29,792 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:31,836 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:33,837 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:35,860 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:37,861 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:39,909 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:41,910 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:43,919 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:45,921 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:47,969 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:49,970 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:52,019 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:54,021 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:03:56,067 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:03:58,069 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:00,118 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:02,119 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:04,139 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:06,140 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:08,161 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:10,162 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:12,177 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:14,179 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:16,215 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:18,216 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:20,235 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:22,236 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:24,266 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:26,268 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:28,284 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:30,286 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:32,317 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:34,319 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:36,354 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:38,356 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:40,384 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:42,385 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:44,419 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:46,421 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:48,449 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:50,451 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:52,470 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:54,471 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:04:56,502 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:04:58,503 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:00,549 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:02,550 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:04,569 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:06,570 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:08,617 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:10,618 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:12,652 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:14,653 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:16,700 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:18,702 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:20,729 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-09 02:05:22,731 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-09 02:05:24,768 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:20,297 [INFO] Iniciando DCS.AI Panel
+2025-11-11 17:32:20,425 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:22,476 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:24,616 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:26,645 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:28,646 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:30,694 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:32,695 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:34,743 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:36,745 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:38,779 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:40,780 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:42,823 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:44,825 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:46,861 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:48,863 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:50,909 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:52,910 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:54,948 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:32:56,949 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:32:58,998 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:00,999 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:03,035 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:05,036 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:07,091 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:09,092 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:11,122 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:13,123 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:15,162 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:17,163 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:19,190 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:21,192 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:23,224 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:25,224 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:27,273 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:29,274 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:31,325 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:33,326 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:35,369 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:37,370 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:39,415 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:41,417 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:43,459 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:45,460 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:47,528 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:49,530 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:51,557 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:52,850 [INFO] Iniciando DCS.AI Panel
+2025-11-11 17:33:52,971 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:53,558 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:55,025 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:55,596 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:57,032 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:57,598 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:33:59,077 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:33:59,627 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:01,078 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:01,628 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:03,106 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:03,665 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:04,353 [INFO] Iniciando DCS.AI Panel
+2025-11-11 17:34:04,480 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:05,107 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:05,666 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:06,519 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:07,142 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:07,692 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:08,525 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:09,143 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:09,693 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:10,567 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:11,187 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:11,743 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:12,568 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:13,189 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:13,744 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:14,606 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:15,226 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:15,783 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:16,607 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:17,229 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:17,784 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:18,652 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:19,271 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:19,829 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:20,653 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:21,272 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:21,830 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:22,697 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:23,316 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:23,875 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:24,698 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:25,317 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:25,876 [INFO] Tentando conectar em 127.0.0.1:22000
+2025-11-11 17:34:26,740 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:27,359 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:27,559 [INFO] Fechando painel - solicitando parada da rede
+2025-11-11 17:34:27,876 [INFO] Fechando painel - solicitando parada da rede
+2025-11-11 17:34:27,892 [INFO] Finalizando painel
+2025-11-11 17:34:27,916 [ERROR] Network client erro: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 35, in run
+    self._connect_and_listen()
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\panel_ui.py", line 44, in _connect_and_listen
+    with socket.create_connection((self.host, self.port), timeout=5) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 850, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\socket.py", line 835, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+2025-11-11 17:34:28,551 [INFO] Fechando painel - solicitando parada da rede
+2025-11-11 17:34:28,831 [INFO] Finalizando painel
+2025-11-11 17:34:29,024 [INFO] Fechando painel - solicitando parada da rede
+2025-11-11 17:34:29,297 [INFO] Finalizando painel

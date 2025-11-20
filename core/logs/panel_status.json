@@ -1,0 +1,14 @@
+{
+  "dcs_monitor": {
+    "status": "running",
+    "cpu_percent": 11.5,
+    "mem_percent": 46.8,
+    "procs": 200,
+    "temperature": null,
+    "last_update": "2025-11-08T19:53:04.211773"
+  },
+  "dcs_autocorrect": {
+    "status": "running",
+    "last_update": "2025-11-08T19:53:04.304366"
+  }
+}

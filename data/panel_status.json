@@ -1,0 +1,13 @@
+{
+  "autocorrect": {
+    "status": "idle",
+    "last_update": "2025-11-11T13:43:42.269864"
+  },
+  "monitor": {
+    "status": "running",
+    "cpu_percent": 6.8,
+    "mem_percent": 63.8,
+    "temp": null,
+    "last_update": "2025-11-11T13:56:55.837943"
+  }
+}

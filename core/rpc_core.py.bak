@@ -1,0 +1,168 @@
+# -*- coding: utf-8 -*-
+"""
+lightweight asyncio RPC server/client for DCs.AI
+Provides:
+ - RPCServer class (start/start_server or start_server(host,port) compatible)
+ - RPCClient helper (used by tests)
+ - exports last_rpc_instance and broadcast()
+"""
+import asyncio
+import json
+import logging
+from typing import Any
+
+logger = logging.getLogger("rpc_core")
+logging.basicConfig(level=logging.INFO)
+
+last_rpc_instance = None  # populated when server is instantiated
+
+
+class RPCConnection:
+    def __init__(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
+        self.reader = reader
+        self.writer = writer
+        self.addr = writer.get_extra_info("peername")
+
+    async def send(self, obj: Any):
+        try:
+            self.writer.write((json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8"))
+            await self.writer.drain()
+        except Exception as e:
+            logger.debug(f"[RPC] send error {e}")
+
+    async def recv(self):
+        try:
+            line = await self.reader.readline()
+            if not line:
+                return None
+            return json.loads(line.decode("utf-8", errors="ignore").strip())
+        except Exception:
+            return None
+
+    def close(self):
+        try:
+            self.writer.close()
+        except Exception:
+            pass
+
+
+class RPCServer:
+    """
+    Supports two usage patterns:
+    - legacy: rpc = RPCServer(); await rpc.start_server(host, port)
+    - modern: rpc = RPCServer(host=..., port=...); await rpc.start()
+    Also exposes .broadcast(event, payload) coroutine and keeps connections.
+    """
+    def __init__(self, host: str | None = None, port: int | None = None):
+        self.host = host
+        self.port = port
+        self._server: asyncio.AbstractServer | None = None
+        self._conns: set[RPCConnection] = set()
+        self._lock = asyncio.Lock()
+        global last_rpc_instance
+        last_rpc_instance = self
+
+    async def _handle_client(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
+        conn = RPCConnection(reader, writer)
+        async with self._lock:
+            self._conns.add(conn)
+        logger.info(f"[CORE][RX] connect ← {conn.addr}")
+        try:
+            while True:
+                msg = await conn.recv()
+                if msg is None:
+                    break
+                # simple RPC dispatch: either notification or request
+                typ = msg.get("type", "").lower() if isinstance(msg, dict) else ""
+                if typ in ("notification", "notify"):
+                    # broadcast style notification received
+                    logger.info(f"[CORE][RX] notification {msg.get('method')} ← {msg.get('params')}")
+                elif typ in ("request", "req"):
+                    # echo-like handler for basic operations
+                    method = msg.get("method")
+                    if method == "ping":
+                        await conn.send({"type": "response", "id": msg.get("id"), "result": {"time": asyncio.get_event_loop().time()}})
+                    else:
+                        await conn.send({"type": "response", "id": msg.get("id"), "result": {"ok": True}})
+                else:
+                    logger.info(f"[CORE][RX] raw ← {msg}")
+        except Exception as e:
+            logger.debug(f"[RPC] client handler error {e}")
+        finally:
+            conn.close()
+            async with self._lock:
+                if conn in self._conns:
+                    self._conns.remove(conn)
+            logger.info(f"[CORE][RX] disconnect ← {conn.addr}")
+
+    async def start_server(self, host: str | None = None, port: int | None = None):
+        # legacy style: explicit host/port passed
+        h = host if host is not None else self.host or "0.0.0.0"
+        p = port if port is not None else self.port or 22888
+        self._server = await asyncio.start_server(self._handle_client, h, p)
+        logger.info(f"[CORE][TX] listening → {h}:{p}")
+        await self._server.serve_forever()
+
+    async def start(self):
+        # modern style: already have host/port in constructor
+        if self.host is None or self.port is None:
+            # if no host/port, default to 22888 on all interfaces
+            await self.start_server("0.0.0.0", 22888)
+        else:
+            await self.start_server(self.host, self.port)
+
+    async def broadcast(self, method: str, params: dict):
+        obj = {"type": "notification", "method": method, "params": params}
+        async with self._lock:
+            conns = list(self._conns)
+        logger.info(f"[CORE][TX] broadcast {method} -> {len(conns)} conns")
+        for c in conns:
+            try:
+                await c.send(obj)
+            except Exception:
+                pass
+
+    # convenience sync helper (not coroutine) for external bridge
+    def send_all_sync(self, obj: dict):
+        """
+        Best-effort non-async send to connections (used by bridge if needed).
+        """
+        async def _runner():
+            async with self._lock:
+                conns = list(self._conns)
+            for c in conns:
+                try:
+                    await c.send(obj)
+                except Exception:
+                    pass
+        try:
+            asyncio.get_event_loop().create_task(_runner())
+        except Exception:
+            # if no running loop, spawn one temporarily
+            try:
+                asyncio.run(_runner())
+            except Exception:
+                pass
+
+
+# light client (for tests)
+class RPCClient:
+    def __init__(self, host="127.0.0.1", port=22888):
+        self.host = host
+        self.port = port
+        self.reader = None
+        self.writer = None
+
+    async def connect(self):
+        self.reader, self.writer = await asyncio.open_connection(self.host, self.port)
+
+    async def send(self, obj: dict):
+        if not self.writer:
+            await self.connect()
+        self.writer.write((json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8"))
+        await self.writer.drain()
+        # if expecting response:
+        line = await self.reader.readline()
+        if not line:
+            return None
+        return json.loads(line.decode("utf-8", errors="ignore").strip())

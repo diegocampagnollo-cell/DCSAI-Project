@@ -1,0 +1,4 @@
+@echo off
+rem Autostart minimal (core only, background window)
+start "DCs.AI Core" cmd /k "python -m core.dcs_main"
+exit /b 0

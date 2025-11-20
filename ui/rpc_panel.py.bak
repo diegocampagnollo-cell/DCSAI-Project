@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+"""
+RPC Panel client with discovery (tries discovered ports + default ports)
+Shows simple live logs to console and responds to ping.
+"""
+import asyncio
+import json
+import socket
+import time
+import os
+from typing import Optional
+
+HOSTS_TRY = [("127.0.0.1", 22888), ("127.0.0.1", 22000)]
+DISCOVERY_PORTS = [22888, 22000, 22900]
+RECONNECT_DELAY = 3.0
+
+def log(tag, msg):
+    ts = time.strftime("%H:%M:%S")
+    print(f"[{tag}] {ts} {msg}")
+
+class RPCPanelClient:
+    def __init__(self):
+        self.reader: Optional[asyncio.StreamReader] = None
+        self.writer: Optional[asyncio.StreamWriter] = None
+        self.connected_host = None
+
+    async def discover_and_connect(self):
+        # simple UDP discovery pass (quick broadcast to each candidate port)
+        for host, port in HOSTS_TRY:
+            try:
+                reader, writer = await asyncio.open_connection(host, port)
+                self.reader, self.writer = reader, writer
+                self.connected_host = (host, port)
+                log("PANEL][TX", f"connected → {host}:{port}")
+                return True
+            except Exception:
+                pass
+
+        # try targeted discovery by probing beacon ports on localhost
+        for p in DISCOVERY_PORTS:
+            try:
+                reader, writer = await asyncio.open_connection("127.0.0.1", p)
+                self.reader, self.writer = reader, writer
+                self.connected_host = ("127.0.0.1", p)
+                log("PANEL][TX", f"connected → 127.0.0.1:{p}")
+                return True
+            except Exception:
+                pass
+
+        return False
+
+    async def send_notification(self, method, params):
+        if not self.writer:
+            return False
+        obj = {"type": "notification", "method": method, "params": params}
+        self.writer.write((json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8"))
+        await self.writer.drain()
+        return True
+
+    async def send_request(self, method, params, _id=1):
+        if not self.writer:
+            return None
+        obj = {"type": "request", "method": method, "params": params, "id": _id}
+        self.writer.write((json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8"))
+        await self.writer.drain()
+        line = await self.reader.readline()
+        if not line:
+            return None
+        return json.loads(line.decode("utf-8", errors="ignore").strip())
+
+    async def run(self):
+        while True:
+            ok = await self.discover_and_connect()
+            if not ok:
+                log("PANEL][TX", f"DISCOVERY failed, retry in {RECONNECT_DELAY}s")
+                await asyncio.sleep(RECONNECT_DELAY)
+                continue
+
+            # announce capabilities, ping and listen
+            try:
+                await self.send_notification("capability_announce", {"capabilities": ["panel_ui", "exec_cmd", "show_alert"]})
+                res = await self.send_request("ping", {})
+                log("PANEL][RX", f"ping_result ← {res}")
+            except Exception as e:
+                log("PANEL][ERR", f"announce/ping error {e}")
+
+            # read incoming notifications/responses
+            try:
+                while True:
+                    line = await self.reader.readline()
+                    if not line:
+                        raise ConnectionError("Disconnected")
+                    try:
+                        msg = json.loads(line.decode("utf-8", errors="ignore").strip())
+                    except Exception:
+                        msg = None
+                    if msg:
+                        t = msg.get("type")
+                        if t == "notification":
+                            log("PANEL][RX", f"notification {msg.get('method')} ← {msg.get('params')}")
+                        elif t == "response":
+                            log("PANEL][RX", f"response id={msg.get('id')} ← {msg.get('result')}")
+                        else:
+                            log("PANEL][RX", f"raw ← {msg}")
+            except Exception as e:
+                log("PANEL][RX", f"connect_failed ← {self.connected_host} ({e})")
+                try:
+                    if self.writer:
+                        self.writer.close()
+                except Exception:
+                    pass
+                self.reader, self.writer = None, None
+                self.connected_host = None
+                await asyncio.sleep(RECONNECT_DELAY)
+
+
+if __name__ == "__main__":
+    client = RPCPanelClient()
+    try:
+        asyncio.run(client.run())
+    except KeyboardInterrupt:
+        print("Exiting RPC panel")

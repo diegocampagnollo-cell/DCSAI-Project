@@ -1,0 +1,893 @@
+2025-11-10 10:58:42,389 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 10:58:42,390 [INFO] Conectado ao core
+2025-11-10 10:58:42,390 [INFO] Notification from core: request_capabilities {}
+2025-11-10 10:58:42,390 [WARNING] Ping failed: method not found
+2025-11-10 11:01:15,659 [ERROR] recv loop error
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 100, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 30, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 11:01:15,659 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:01:17,689 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:00,868 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:02,903 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:05,912 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:07,945 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:10,953 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:12,992 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:16,002 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:18,009 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:21,012 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:23,043 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:26,056 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:28,085 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:31,089 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:33,101 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:36,116 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:38,134 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:04:41,148 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:04:43,186 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 11:37:12,424 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 11:37:12,425 [INFO] Conectado ao core
+2025-11-10 11:37:12,425 [INFO] Notification from core: request_capabilities {}
+2025-11-10 11:37:12,426 [INFO] Ping result: {'time': 1762785432.4263167}
+2025-11-10 12:20:23,542 [ERROR] recv loop error
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 100, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 30, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 12:20:23,620 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 12:20:25,648 [WARNING] Conexão falhou: [WinError 1225] O computador remoto recusou a conexão de rede. Reconnect em 3.0 s
+2025-11-10 12:20:28,652 [INFO] Conectando ao core 127.0.0.1:22000
+2025-11-10 12:28:07,180 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:28:07,181 [INFO] Connected to core
+2025-11-10 12:28:07,182 [INFO] Notification from core: request_capabilities {}
+2025-11-10 12:28:07,184 [INFO] Ping result: {'time': 1762788487.183402}
+2025-11-10 12:35:28,869 [INFO] Server disconnected
+2025-11-10 12:35:28,870 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:35:30,904 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:35:33,958 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:35:35,991 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:35:38,993 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:37:24,642 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:37:24,642 [INFO] Connected to core
+2025-11-10 12:37:34,650 [WARNING] Ping failed: 
+2025-11-10 12:41:37,478 [ERROR] recv loop error
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 114, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 40, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 12:41:37,482 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:41:39,499 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:41:42,515 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 12:46:04,452 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:06,482 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:09,490 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:11,531 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:14,546 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:16,582 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:19,596 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:21,629 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:24,631 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:26,672 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:29,680 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:42,769 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:44,826 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:47,827 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:49,860 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:52,862 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:54,911 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:46:57,913 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:46:59,938 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:02,944 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:05,003 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:08,014 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:10,044 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:13,054 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:15,077 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:18,090 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:20,109 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:23,126 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:25,161 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:28,176 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:30,215 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:33,221 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:35,242 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:38,255 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:40,294 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:43,308 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:45,350 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:50,656 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:52,677 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:47:55,689 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:47:57,729 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:00,737 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:02,758 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:05,772 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:07,807 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:10,812 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:12,856 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:15,871 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:17,905 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:20,912 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:22,933 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:25,936 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:27,955 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:30,969 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:32,998 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:36,006 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:38,039 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:41,049 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:43,079 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:46,086 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:48,112 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:51,125 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:53,137 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:48:56,151 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:48:58,184 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:01,192 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:03,214 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:06,221 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:08,250 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:11,253 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:13,284 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:16,297 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:18,340 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:21,354 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:23,383 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:26,398 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:28,434 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:31,448 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:33,463 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:36,466 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:38,515 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:41,517 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:43,555 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:46,568 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:48,616 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:51,625 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:53,655 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:49:56,666 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:49:58,699 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:01,707 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:03,731 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:06,747 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:08,772 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:11,781 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:13,828 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:16,842 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:18,878 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:21,895 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:23,921 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:26,936 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:28,964 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:31,976 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:34,005 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:37,012 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:39,044 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:42,060 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:44,096 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:47,105 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:49,140 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:52,149 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:54,187 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:50:57,194 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:50:59,226 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:02,243 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:04,272 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:07,287 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:09,292 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:12,302 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:14,355 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:17,368 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:19,411 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:22,427 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:24,457 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:27,467 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:29,513 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:32,527 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:34,577 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:37,587 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:39,623 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:42,640 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:44,691 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:47,710 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:49,742 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:52,759 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:54,804 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:51:57,824 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:51:59,865 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:02,868 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:04,901 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:07,908 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:09,939 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:12,955 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:14,989 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:18,000 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:20,056 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:23,061 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:25,106 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:28,121 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:30,140 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:33,154 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:35,189 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:38,195 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:40,235 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:43,242 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:45,266 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:48,270 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:50,288 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:53,291 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:52:55,337 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:52:58,353 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:00,395 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:03,411 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:05,433 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:08,440 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:10,467 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:13,484 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:15,515 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:18,528 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:20,553 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:23,571 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:25,601 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:28,614 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:30,649 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:33,659 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:35,683 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:38,696 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:40,735 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:43,739 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:45,768 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:48,784 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:50,829 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:53,834 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:53:55,891 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:53:58,900 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:00,931 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:03,938 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:05,987 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:08,996 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:11,030 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:14,041 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:16,090 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:19,100 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:21,127 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:24,131 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:26,156 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:29,165 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:31,189 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:34,197 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:36,218 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:39,230 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:41,263 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:44,274 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:46,303 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:49,314 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:51,353 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:54,363 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:54:56,396 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:54:59,414 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:55:01,439 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:55:04,456 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:55:06,494 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:55:09,512 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:55:11,542 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:55:14,559 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:55:16,578 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:57:58,751 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:00,806 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:03,817 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:05,842 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:08,849 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:10,894 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:13,907 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:15,949 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:18,956 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:20,995 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:23,998 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:26,038 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:29,047 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:31,091 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:34,105 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:36,146 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:39,165 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:41,193 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:44,198 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:46,247 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:49,264 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:51,297 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:54,308 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:58:56,346 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:58:59,355 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:01,396 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:04,397 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:06,419 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:09,427 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:11,455 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:14,460 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:16,498 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:19,511 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:21,542 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:24,550 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:26,593 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:29,609 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:31,641 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:34,658 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:36,690 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:39,697 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:41,733 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:44,735 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:46,772 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:49,778 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:51,828 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:54,844 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 12:59:56,886 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 12:59:59,893 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:00:01,922 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:00:04,926 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:00:06,958 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:29,556 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:31,595 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:34,598 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:36,629 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:39,646 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:41,667 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:44,678 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:46,728 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:49,745 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:51,794 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:54,807 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:03:56,828 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:03:59,834 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:01,874 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:04,877 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:06,914 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:09,927 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:11,959 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:14,976 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:17,024 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:20,024 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:22,052 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:25,060 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:27,096 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:30,111 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:32,160 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:35,164 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:37,191 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:40,206 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:42,216 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:45,230 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:47,290 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:50,291 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:52,332 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:04:55,340 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:04:57,368 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:00,381 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:02,411 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:05,425 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:07,455 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:10,458 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:12,502 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:15,503 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:17,566 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:20,581 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:22,605 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:25,621 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:27,649 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:30,664 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:32,697 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:35,709 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:37,742 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:40,745 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:42,781 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:45,789 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:47,819 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:50,834 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:52,864 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:05:55,870 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:05:57,896 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:06:00,899 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:06:02,930 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:06:05,938 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:06:07,982 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:06:10,986 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:06:13,023 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:23,646 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:25,672 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:28,674 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:30,720 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:33,732 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:35,768 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:38,770 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:40,785 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:44,353 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:46,382 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:49,384 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:51,416 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:54,422 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:10:56,469 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:10:59,472 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:01,524 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:04,532 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:06,550 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:09,556 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:11,594 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:14,606 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:16,646 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:19,647 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:21,671 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:24,687 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:26,721 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:29,717 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:31,747 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:34,753 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:36,791 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:39,796 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:11:41,833 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:11:44,846 [INFO] Connecting to core 127.0.0.1:22888
+2025-11-10 13:12:55,746 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:12:57,774 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:00,788 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:02,841 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:05,859 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:07,892 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:10,890 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:12,911 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:15,923 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:17,974 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:20,992 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:23,034 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:26,036 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:28,089 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:31,097 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:33,122 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:36,136 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:38,172 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:41,175 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:43,209 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:46,211 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:48,241 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:51,256 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:53,309 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:13:56,321 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:13:58,359 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:01,369 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:03,388 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:06,393 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:08,425 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:11,437 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:13,482 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:16,486 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:18,521 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:21,536 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:23,563 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:26,569 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:28,602 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:31,608 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:33,670 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:36,674 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:38,699 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:41,708 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:43,740 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:46,747 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:48,785 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:51,787 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:53,819 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:14:56,824 [INFO] Connecting to core 127.0.0.1:22000
+2025-11-10 13:14:58,854 [WARNING] Connection failed: [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:30:55,904 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:30:57,930 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:30:58,192 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:00,224 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:00,478 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:02,517 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:02,779 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:05,784 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:07,807 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:08,073 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:10,119 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:10,463 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:12,501 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:12,757 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:15,773 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:17,828 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:18,091 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:20,139 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:20,405 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:22,418 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:22,684 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:25,692 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:27,739 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:28,005 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:30,048 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:30,312 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:32,340 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:32,605 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:35,622 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:37,655 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:37,905 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:39,943 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:40,206 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:42,251 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:42,505 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:45,519 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:47,552 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:47,809 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:49,846 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:50,101 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:31:52,132 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:52,386 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:31:55,389 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:31:57,413 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:57,677 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:31:59,713 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:31:59,965 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:01,989 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:02,255 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:05,266 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:07,297 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:07,551 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:09,574 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:09,829 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:11,858 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:12,113 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:15,116 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:17,169 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:17,426 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:19,452 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:19,718 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:21,758 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:22,018 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:25,026 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:27,069 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:27,335 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:29,378 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:29,634 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:31,674 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:31,927 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:34,931 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:36,968 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:37,234 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:39,263 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:39,518 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:41,576 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:41,828 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:44,837 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:46,868 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:47,134 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:49,163 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:49,417 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:32:51,465 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:51,719 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:32:54,723 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:32:56,767 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:57,033 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:32:59,068 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:32:59,324 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:01,359 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:01,616 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:04,629 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:06,664 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:06,920 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:08,943 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:09,206 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:11,249 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:11,514 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:14,514 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:16,549 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:16,814 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:18,861 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:19,122 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:21,160 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:21,413 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:24,426 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:26,466 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:26,728 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:28,764 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:29,015 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:31,055 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:31,319 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:34,320 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:36,348 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:36,614 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:38,647 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:38,908 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:40,946 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:41,207 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:44,221 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:46,260 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:46,524 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:48,571 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:48,837 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:33:50,878 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:51,143 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:33:54,152 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:33:56,196 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:56,458 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:33:58,501 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:33:58,766 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:00,803 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:01,057 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:04,066 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:06,111 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:06,362 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:08,398 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:08,661 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:10,703 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:10,969 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:13,973 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:16,015 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:16,279 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:18,311 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:18,562 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:20,611 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:20,875 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:23,881 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:25,938 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:26,194 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:28,251 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:28,516 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:30,560 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:30,827 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:33,844 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:35,888 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:36,141 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:38,174 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:38,427 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:40,456 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:40,719 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:43,725 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:45,755 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:46,017 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:48,048 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:48,312 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:34:50,360 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:50,624 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:34:53,626 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:34:55,678 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:55,938 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:34:57,974 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:34:58,236 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:35:00,267 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:35:00,533 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:35:03,536 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:35:05,580 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:35:05,844 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:35:07,875 [INFO] Discovery failed 127.0.0.1:22000 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:35:08,141 [INFO] Discovery: trying 127.0.0.1:22900
+2025-11-10 13:35:10,169 [INFO] Discovery failed 127.0.0.1:22900 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:35:10,422 [WARNING] Discovery failed for all ports, retrying in 3s
+2025-11-10 13:35:13,425 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:35:15,475 [INFO] Discovery failed 127.0.0.1:22888 -> [WinError 1225] O computador remoto recusou a conexão de rede
+2025-11-10 13:35:15,742 [INFO] Discovery: trying 127.0.0.1:22000
+2025-11-10 13:35:17,408 [INFO] Stopped by user
+2025-11-10 13:42:18,778 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 13:42:18,779 [INFO] Connected to 127.0.0.1:22888
+2025-11-10 13:42:18,780 [INFO] Notification from core: request_capabilities {}
+2025-11-10 13:42:18,781 [INFO] Ping result: {'time': 1762792938.7802424}
+2025-11-10 13:58:35,883 [ERROR] recv loop error
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 115, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 31, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 13:58:36,891 [INFO] Discovery: trying 127.0.0.1:22888
+2025-11-10 14:18:06,153 [INFO] DISCOVERY trying 127.0.0.1:22888
+2025-11-10 14:18:06,154 [INFO] Connected to 127.0.0.1:22888
+2025-11-10 14:18:06,155 [INFO] Notification from core: request_capabilities {}
+2025-11-10 14:18:06,158 [INFO] Ping result: {'time': 1762795086.158308}
+2025-11-10 14:20:04,924 [INFO] DISCOVERY trying 127.0.0.1:22888
+2025-11-10 14:20:04,925 [INFO] Connected to 127.0.0.1:22888
+2025-11-10 14:20:04,926 [INFO] Notification from core: request_capabilities {}
+2025-11-10 14:20:04,927 [INFO] Ping result: {'time': 1762795204.9270098}
+2025-11-10 14:23:05,423 [ERROR] recv loop error: [WinError 64] O nome da rede especificado não está mais disponível
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\rpc_panel.py", line 200, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ui\rpc_panel.py", line 52, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 14:23:05,426 [INFO] Disconnected, will attempt reconnect soon
+2025-11-10 14:23:05,933 [INFO] DISCOVERY trying 127.0.0.1:22888
+2025-11-10 14:23:08,132 [INFO] DISCOVERY trying 127.0.0.1:22000
+2025-11-10 14:23:10,321 [INFO] DISCOVERY trying 127.0.0.1:22900
+2025-11-10 14:23:13,349 [INFO] Stopped by user
+2025-11-10 14:59:57,263 Connected to 127.0.0.1:22888
+2025-11-10 14:59:57,263 Notification from core: request_capabilities {}
+2025-11-10 14:59:57,263 Ping result: {'time': 1762797597.2635658}
+2025-11-10 15:17:52,814 recv loop error: [WinError 64] O nome da rede especificado não está mais disponível
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 159, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 43, in read_message
+    # framing helpers
+              ^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 15:17:52,822 Disconnected, will reconnect soon
+2025-11-10 15:17:59,939 Stopped by user
+2025-11-10 15:19:32,489 Connected to 127.0.0.1:22888
+2025-11-10 15:19:32,493 Notification from core: request_capabilities {}
+2025-11-10 15:19:32,493 Ping result: {'time': 1762798772.4933681}
+2025-11-10 15:22:44,709 recv loop error: [WinError 64] O nome da rede especificado não está mais disponível
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 485, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome da rede especificado não está mais disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 159, in _recv_loop
+    msg = await read_message(reader)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCS_AI_vFinal\ui\rpc_panel.py", line 45, in read_message
+    hdr = await reader.readexactly(4)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 728, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\streams.py", line 522, in _wait_for_data
+    await self._waiter
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\proactor_events.py", line 282, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 837, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\Lib\asyncio\windows_events.py", line 489, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome da rede especificado não está mais disponível
+2025-11-10 15:22:44,711 Disconnected, will reconnect soon
+2025-11-10 15:22:49,764 Stopped by user
+2025-11-11 10:18:59,627 Connected to 127.0.0.1:22888
+2025-11-11 10:18:59,628 Notification from core: request_capabilities {}
+2025-11-11 10:18:59,629 Ping result: {'time': 1762867139.6284032}
+2025-11-11 10:26:52,992 Disconnected, will reconnect soon
+2025-11-11 10:26:53,508 Stopped by user
+2025-11-11 10:28:07,589 Connected to 127.0.0.1:22888
+2025-11-11 10:28:07,592 Notification from core: request_capabilities {}
+2025-11-11 10:28:07,594 Ping result: {'time': 1762867687.5926766}
+2025-11-11 11:03:52,716 Disconnected, will reconnect soon
+2025-11-11 11:03:53,222 Stopped by user
+2025-11-11 11:09:46,876 Connected to 127.0.0.1:22888
+2025-11-11 11:09:46,877 Notification from core: request_capabilities {}
+2025-11-11 11:09:46,878 Ping result: {'time': 1762870186.8775527}

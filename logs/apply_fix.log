@@ -1,0 +1,18 @@
+=============================================================== 
+[INICIO] Corrigindo caminhos em 09/11/2025  0:46:30,20 
+Basepath: C:\Users\DIEGO\Desktop\DCs_AI_vFinal\ 
+=============================================================== 
+[OK] Python detectado em: C:\Users\DIEGO\Desktop\DCs_AI_vFinal\Python311\python.exe 
+[INFO] Corrigindo: apply_fix_path_debug.bat 
+[INFO] Corrigindo: apply_patch.bat 
+[INFO] Corrigindo: apply_patch_safe.bat 
+[INFO] Corrigindo: iniciar_dcs.bat 
+[INFO] Corrigindo: iniciar_dcs_auto.bat 
+[INFO] Corrigindo: iniciar_dcs_autonomo.bat 
+[INFO] Corrigindo: iniciar_dcs_cinematic.bat 
+[INFO] Corrigindo: iniciar_dcs_cyber.bat 
+[INFO] Corrigindo: iniciar_dcs_hibrido.bat 
+[INFO] Corrigindo: iniciar_duplo.bat 
+[INFO] Corrigindo: iniciar_stealth.bat 
+[INFO] Corrigindo: iniciar_teste.bat 
+[INFO] Corrigindo: setup_autostart.bat 

@@ -1,0 +1,31 @@
+[08/11/2025 23:01:21,38] Starting test loop...
+[08/11/2025 23:01:43,15] Cycle complete. Waiting 60s before next cycle...
+[08/11/2025 23:02:05,94] Starting stealth launcher...
+[08/11/2025 23:02:08,76] Starting stealth launcher...
+[08/11/2025 23:02:18,17] All processes started.
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\dcs_main.py", line 18, in <module>
+    threading.Thread(target=dcs_network_v2.start_server, kwargs={"bind_port": 22000}, daemon=True).start()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'core.dcs_network_v2' has no attribute 'start_server'
+[08/11/2025 23:02:21,22] All processes started.
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\dcs_main.py", line 18, in <module>
+    threading.Thread(target=dcs_network_v2.start_server, kwargs={"bind_port": 22000}, daemon=True).start()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'core.dcs_network_v2' has no attribute 'start_server'
+[08/11/2025 23:02:43,20] Starting test loop...
+[08/11/2025 23:03:11,00] Starting stealth launcher...
+[08/11/2025 23:03:24,23] All processes started.
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\dcs_main.py", line 18, in <module>
+    threading.Thread(target=dcs_network_v2.start_server, kwargs={"bind_port": 22000}, daemon=True).start()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'core.dcs_network_v2' has no attribute 'start_server'
+[08/11/2025 23:03:37,82] Starting stealth launcher...
+[08/11/2025 23:03:50,23] All processes started.
+Traceback (most recent call last):
+  File "C:\Users\DIEGO\Desktop\DCs_AI_vFinal\dcs_main.py", line 18, in <module>
+    threading.Thread(target=dcs_network_v2.start_server, kwargs={"bind_port": 22000}, daemon=True).start()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'core.dcs_network_v2' has no attribute 'start_server'

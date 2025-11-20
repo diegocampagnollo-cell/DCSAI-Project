@@ -1,0 +1,159 @@
+[2025-11-09 01:19:47] Starting DCs.AI core (final)...
+[2025-11-09 01:19:47] Network manager started (server)
+[2025-11-09 01:19:47] StateSync started
+[2025-11-09 01:19:47] Modules started
+[2025-11-09 01:30:53] Starting DCs.AI core (final)...
+[2025-11-09 01:30:53] Network manager started (server)
+[2025-11-09 01:30:53] StateSync started
+[2025-11-09 01:30:53] Modules started
+[2025-11-09 01:35:41] Starting DCs.AI core (final)...
+[2025-11-09 01:35:41] Network manager started (server)
+[2025-11-09 01:35:41] StateSync started
+[2025-11-09 01:35:41] Modules started
+[2025-11-09 01:39:14] Starting DCs.AI core (final)...
+[2025-11-09 01:39:14] Network manager started (server)
+[2025-11-09 01:39:14] StateSync started
+[2025-11-09 01:39:14] Modules started
+[2025-11-09 01:41:28] Starting DCs.AI core (final)...
+[2025-11-09 01:41:28] Network manager started (server)
+[2025-11-09 01:41:28] StateSync started
+[2025-11-09 01:41:28] Modules started
+[2025-11-09 01:44:30] Starting DCs.AI core (final)...
+[2025-11-09 01:44:30] Network manager started (server)
+[2025-11-09 01:44:30] StateSync started
+[2025-11-09 01:44:30] Modules started
+[2025-11-09 02:28:53] Starting DCs.AI core (final)...
+[2025-11-09 02:28:53] Network manager started (server)
+[2025-11-09 02:28:53] StateSync started
+[2025-11-09 02:28:53] Modules started
+[2025-11-09 02:32:59] Shutdown requested
+[2025-11-09 02:32:59] Core shutdown complete
+[2025-11-09 02:33:12] Starting DCs.AI core (final)...
+[2025-11-09 02:33:12] Network manager started (server)
+[2025-11-09 02:33:12] StateSync started
+[2025-11-09 02:33:12] Modules started
+[2025-11-09 02:35:17] Starting DCs.AI core (final)...
+[2025-11-09 02:35:17] Network manager started (server)
+[2025-11-09 02:35:17] StateSync started
+[2025-11-09 02:35:17] Modules started
+[2025-11-09 09:08:24] Starting DCs.AI core (final)...
+[2025-11-09 09:08:24] Network manager started (server)
+[2025-11-09 09:08:24] StateSync started
+[2025-11-09 09:08:24] Modules started
+[2025-11-09 16:14:29] Starting DCs.AI core (final)...
+[2025-11-09 16:14:29] Network manager started (server)
+[2025-11-09 16:14:29] StateSync started
+[2025-11-09 16:14:29] Modules started
+[2025-11-09 22:45:08] Starting DCs.AI core (final)...
+[2025-11-09 22:45:08] Network manager started (server)
+[2025-11-09 22:45:08] StateSync started
+[2025-11-09 22:45:08] Modules started
+[2025-11-10 12:36:53] Starting DCs.AI core (final)...
+[2025-11-10 12:36:53] Network manager started (server)
+[2025-11-10 12:36:53] StateSync started
+[2025-11-10 12:36:53] Modules started
+[2025-11-10 12:41:37] Shutdown requested
+[2025-11-10 12:41:37] Core shutdown complete
+[2025-11-10 12:42:19] Starting DCs.AI core (final)...
+[2025-11-10 12:42:19] Network manager started (server)
+[2025-11-10 12:42:19] StateSync started
+[2025-11-10 12:42:19] Modules started
+[2025-11-10 12:42:37] Starting DCs.AI core (final)...
+[2025-11-10 12:42:37] Network manager started (server)
+[2025-11-10 12:42:37] StateSync started
+[2025-11-10 12:42:37] Modules started
+[2025-11-10 12:57:16] Starting DCs.AI core (final)...
+[2025-11-10 12:57:16] [RPC] Embedded RPC server started (background thread)
+[2025-11-10 12:57:16] Network manager started (server)
+[2025-11-10 12:57:16] StateSync started
+[2025-11-10 12:57:16] Modules started
+[2025-11-10 13:02:57] Starting DCs.AI core (final)...
+[2025-11-10 13:02:57] [RPC] Embedded RPC server started (background thread)
+[2025-11-10 13:02:57] Network manager started (server)
+[2025-11-10 13:02:57] [RPC] Starting embedded RPC (default config)
+[2025-11-10 13:02:57] StateSync started
+[2025-11-10 13:02:57] [RPC] Falha ao iniciar: 'RPCServer' object has no attribute 'start_server'
+[2025-11-10 13:02:57] Modules started
+[2025-11-10 13:41:56] Starting DCs.AI core (final)...
+[2025-11-10 13:41:56] Network manager started (server)
+[2025-11-10 13:41:56] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 13:41:56] StateSync started
+[2025-11-10 13:41:56] Modules started
+[2025-11-10 13:59:48] Starting DCs.AI core (final)...
+[2025-11-10 13:59:48] Network manager started (server)
+[2025-11-10 13:59:48] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 13:59:48] StateSync started
+[2025-11-10 13:59:48] Modules started
+[2025-11-10 14:08:13] Starting DCs.AI core (final)...
+[2025-11-10 14:08:13] Network manager started (server)
+[2025-11-10 14:08:13] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 14:08:13] StateSync started
+[2025-11-10 14:08:13] Modules started
+[2025-11-10 14:17:44] Starting DCs.AI core (final)...
+[2025-11-10 14:17:44] Network manager started (server)
+[2025-11-10 14:17:44] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 14:17:44] StateSync started
+[2025-11-10 14:17:44] Modules started
+[2025-11-10 14:19:49] Starting DCs.AI core (final)...
+[2025-11-10 14:19:49] Network manager started (server)
+[2025-11-10 14:19:49] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 14:19:49] StateSync started
+[2025-11-10 14:19:49] Modules started
+[2025-11-10 14:23:05] Shutdown requested
+[2025-11-10 14:23:05] Core shutdown complete
+[2025-11-10 14:50:57] Starting DCs.AI core (final)...
+[2025-11-10 14:59:27] Starting DCs.AI core (final)...
+[2025-11-10 14:59:27] Network manager started (server)
+[2025-11-10 14:59:27] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 14:59:27] StateSync started
+[2025-11-10 14:59:27] Modules started
+[2025-11-10 15:17:52] Shutdown requested
+[2025-11-10 15:17:52] Core shutdown complete
+[2025-11-10 15:19:15] Starting DCs.AI core (final)...
+[2025-11-10 15:19:15] Network manager started (server)
+[2025-11-10 15:19:15] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 15:19:15] StateSync started
+[2025-11-10 15:19:15] Modules started
+[2025-11-10 15:22:44] Shutdown requested
+[2025-11-10 15:22:44] Core shutdown complete
+[2025-11-10 20:49:03] Starting DCs.AI core (final)...
+[2025-11-10 20:49:03] Network manager started (server)
+[2025-11-10 20:49:03] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-10 20:49:03] StateSync started
+[2025-11-10 20:49:03] Modules started
+[2025-11-11 09:42:31] Starting DCs.AI core (final)...
+[2025-11-11 09:42:31] Network manager started (server)
+[2025-11-11 09:42:31] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-11 09:42:31] StateSync started
+[2025-11-11 09:42:31] Modules started
+[2025-11-11 10:18:53] Starting DCs.AI core (final)...
+[2025-11-11 10:18:53] Network manager started (server)
+[2025-11-11 10:18:53] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-11 10:18:53] StateSync started
+[2025-11-11 10:18:53] Modules started
+[2025-11-11 10:26:57] Shutdown requested
+[2025-11-11 10:26:57] Core shutdown complete
+[2025-11-11 10:27:58] Starting DCs.AI core (final)...
+[2025-11-11 10:27:58] Network manager started (server)
+[2025-11-11 10:27:58] [RPC] Embedded RPC iniciado (porta 22888)
+[2025-11-11 10:27:58] StateSync started
+[2025-11-11 10:27:58] Modules started
+[2025-11-11 11:03:44] Shutdown requested
+[2025-11-11 11:03:44] Core shutdown complete
+[2025-11-11 13:23:53] Starting DCs.AI core (final)...
+[2025-11-11 13:23:53] Network manager started (server/hybrid)
+[2025-11-11 13:23:53] [RPC] Embedded RPC starter launched
+[2025-11-11 13:23:53] StateSync started
+[2025-11-11 13:23:53] Modules started
+[2025-11-11 13:41:19] Shutdown requested
+[2025-11-11 13:41:19] Core shutdown complete
+[2025-11-11 13:41:56] Starting DCs.AI core (final)...
+[2025-11-11 13:41:56] Network manager started (server/hybrid)
+[2025-11-11 13:41:56] [RPC] Embedded RPC starter launched
+[2025-11-11 13:41:56] StateSync started
+[2025-11-11 13:41:56] Modules started
+[2025-11-11 13:43:42] Starting DCs.AI core (final)...
+[2025-11-11 13:43:42] Network manager started (server/hybrid)
+[2025-11-11 13:43:42] [RPC] Embedded RPC starter launched
+[2025-11-11 13:43:42] StateSync started
+[2025-11-11 13:43:42] Modules started
