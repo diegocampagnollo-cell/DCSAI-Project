@@ -1,1 +1,2 @@
-<img src="assets/Estilo formato “escudo” + linhas de circuito que lembram redetelemetria](https://github.com/user-attachments/assets/228a93b0-745c-4f49-a042-c58198a4714a" width="260">
+<img src="![Estilo formato “escudo” + linhas de circuito que lembram redetelemetria](https://github.com/user-attachments/assets/40cf3968-685a-4b9a-b08b-35e118e633b3)
+" width="260">
