@@ -36,3 +36,22 @@ DCSAI-Project/
 📁 docs/                 # Whitepaper e documentos técnicos
 ├── index.html            # Página inicial do GitHub Pages
 └── README.md             # Este arquivo
+
+---
+
+- [x] Repositório público  
+- [x] GitHub Pages ativo  
+- [x] Logo oficial  
+- [ ] Whitepaper publicado  
+- [ ] Lançamento do token  
+- [ ] Integração com plataformas de monitoramento
+
+---
+
+Este projeto está sob a licença MIT.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Contribuições são bem-vindas!  
+Sinta-se à vontade para abrir **issues** ou enviar **pull requests**.
