@@ -1,1 +1,1 @@
-<img src="assets/dcsai_shield.svg" width="260">
+<img src="assets/logo.svg" width="260">
