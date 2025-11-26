@@ -1,8 +1,7 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/486abdac-ceaa-4185-a47a-af28bb6d2890" />
 
 <p align="center">
-  <img src="assets/logo.svg" width="180" alt="Logo DCs.AI">
-</p>
+  </p>
 
 # DCs.AI — Autonomous Monitoring & Telemetry
 
