@@ -30,15 +30,15 @@
 
 📁DCSAI-Project/
 
-📁 assets/               # Logos e imagens
+📁 assets/ㅤㅤㅤㅤㅤㅤㅤㅤ# Logos e imagens
 
-📁 docs/                 # Whitepaper e documentos técnicos
+📁 docs/ㅤㅤㅤㅤㅤㅤㅤㅤﾠ# Whitepaper e documentos técnicos
 
-├─ DCSAI-Project.md     # Página inicial do GitHub Pages
+├─ DCSAI-Project.mdㅤㅤㅤ# Página inicial do GitHub Pages
 
-└── README.md            # Este arquivo
+└── README.mdㅤㅤㅤㅤﾠ# Este arquivo
 
-----
+---
 
 Este projeto está sob a licença MIT.  
 Veja o arquivo (LICENSE) para mais detalhes.
