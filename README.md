@@ -52,11 +52,11 @@
     <main> <h1>
     <li> <n> 💠DCs.AI💠  </n>
     <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p>
-  
+  </li> </h1>
      
     <li> <n> <h1> 🧠 Sobre o Projeto </h1>
       <p> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p>
-    <section>
+    </n> </li>
     <section>
     <li> <h1> Links Oficiais 👇 </h1> </li>
       <ul>
@@ -71,7 +71,7 @@
     
    
    <li> <p> <h1> 📜 Licença MIT | © 2025 DCs.AI  </h1>
-    
+    </p> </li>
  
 
   Este projeto está sob a licença MIT.  
