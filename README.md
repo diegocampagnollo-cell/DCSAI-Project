@@ -39,6 +39,7 @@
 └── README.mdㅤㅤㅤㅤﾠ# Este arquivo
 
 ---
+
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -48,16 +49,16 @@
 <head>
 <body>
   <header>
-    <main>
-    <h2> <li> <n> 💠DCs.AI💠 
-    <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p></h2></li></n>
+    <main> <h1>
+    <li> <n> 💠DCs.AI💠 </li> </n> </h1>
+    <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p>
   
      
-    <h1> <li> <n> 🧠 Sobre o Projeto </n> </li> </h1>
+    <li> <n> <h1> 🧠 Sobre o Projeto </n> </li> </h1>
       <p> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p>
     <section>
     <section>
-    <li> <h2> Links Oficiais 👇 </h2></li>
+    <li> <h1> Links Oficiais 👇 </h1> </li>
       <ul>
         <li> <a href="https://github.com/diegocampagnollo-cell/DCSAI-Project">GitHub</a></li>
         <li> <a href="https://discord.gg/5wbfU4KTA9">Discord</a></li>
@@ -65,14 +66,11 @@
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
       </ul>
    
-      <li><h2>Plano Premium</h2></li>
+      <li> <h1> Plano Premium </li> </h1>
       <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
     
    
-  <footer>
-   <li><p>📜 Licença MIT | © 2025 DCs.AI</p></li>
-  </footer>
-  </main><body>
+   <li> <p>📜 Licença MIT | © 2025 DCs.AI</p> </li>
     
 ---
 
