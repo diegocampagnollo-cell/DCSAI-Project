@@ -13,12 +13,12 @@
 
   <main>
     <section>
-    <h2>Sobre o Projeto</h2>
+    <h2> <li> <n>🧠 Sobre o Projeto </n> </li> </h2>
       <p> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p>
     <section>
--
+<main>
     <section>
-      <h2> Links Oficiais </h2>
+    <li><h2> Links Oficiais </h2></li>
       <ul>
         <li> <a href="https://github.com/diegocampagnollo-cell/DCSAI-Project">GitHub</a></li>
         <li> <a href="https://discord.gg/5wbfU4KTA9">Discord</a></li>
