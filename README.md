@@ -50,11 +50,11 @@
 <body>
   <header>
     <main> <h1>
-    <li> <n> 💠DCs.AI💠 </li> </n> </h1>
+    <li> <n> 💠DCs.AI💠  </n>
     <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p>
   
      
-    <li> <n> <h1> 🧠 Sobre o Projeto </n> </li> </h1>
+    <li> <n> <h1> 🧠 Sobre o Projeto </h1>
       <p> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p>
     <section>
     <section>
@@ -70,7 +70,7 @@
       <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
     
    
-   <li> <p> <h1> 📜 Licença MIT | © 2025 DCs.AI</p> </li> </h1>
+   <li> <p> <h1> 📜 Licença MIT | © 2025 DCs.AI  </h1>
     
  
 
