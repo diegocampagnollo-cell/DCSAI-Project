@@ -66,15 +66,15 @@
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
       </ul>
    
-      <li> <h1> Plano Premium </li> </h1>
+      <li> <h1> Plano Premium  </h1>
       <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
     
    
    <li> <p>📜 Licença MIT | © 2025 DCs.AI</p> </li>
     
----
+ 
 
-Este projeto está sob a licença MIT.  
-Veja o arquivo (LICENSE) para mais detalhes.
-Contribuições são bem-vindas!  
-Sinta-se à vontade para abrir ** issues ** ou enviar ** pull requests **.
+  Este projeto está sob a licença MIT.  
+  Veja o arquivo (LICENSE) para mais detalhes.
+  Contribuições são bem-vindas!  
+  Sinta-se à vontade para abrir ** issues ** ou enviar ** pull requests **.
