@@ -7,7 +7,7 @@
 <head>
 <body>
   <header>
-    <h1><li> 🚀<n> DCs.AI </n> 🚀 </h1></li>
+    <h1><li> 💠<n> DCs.AI </n> 💠 </h1></li>
     <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p>
   </header>
 
