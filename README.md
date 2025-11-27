@@ -66,7 +66,7 @@
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
       </ul>
    
-      <li> <h1> Plano Premium  </h1>
+      <li> <h1> ☝️ Plano Premium  </h1>
       <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
     
    
