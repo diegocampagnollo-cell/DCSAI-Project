@@ -70,7 +70,7 @@
       <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
     
    
-   <li> <p>📜 Licença MIT | © 2025 DCs.AI</p> </li>
+   <li> <p> <h1> 📜 Licença MIT | © 2025 DCs.AI</p> </li> </h1>
     
  
 
