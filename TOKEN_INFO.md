@@ -43,12 +43,13 @@
 ---
 
 ## Official Links
-- Website:
-- GitHub:
+- Website: https://diegocampagnollo-cell.github.io/DCSAI-Project/
+- GitHub: https://github.com/diegocampagnollo-cell
+- Facebook: https://www.facebook.com/diegoscampagnollo
 - Whitepaper:
-- Discord:
-- Twitter/X:
-- Telegram:
+- Discord: https://discord.gg/5wbfU4KTA9
+- Twitter/X: https://x.com/DiegoCampa99502
+- Telegram: NONE
 
 ---
 
