@@ -28,15 +28,25 @@
 
 ## 📦 Estrutura do Repositório
 
-📁DCSAI-Project/
+📂 DCsAI/
 
-📁 assets/ㅤㅤㅤㅤㅤㅤㅤㅤ# Logos e imagens
+📂 assets/
 
-📁 docs/ㅤㅤㅤㅤㅤㅤㅤㅤﾠ# Whitepaper e documentos técnicos
+📂 core/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# IA + automações
 
-├─ DCSAI-Project.mdㅤㅤㅤ# Página inicial do GitHub Pages
+📂 ui/ ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# Painel de telemetria
 
-└── README.mdㅤㅤㅤㅤﾠ# Este arquivo
+📂 contracts/ ﾠﾠﾠﾠ   # Token DCSAI + eventos
+
+📂 docs/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ  # Whitepaper, roadmap, branding
+
+📂 configs/
+
+📂 examples/
+
+📂 tests/
+
+📂 tools/
 
 ---
 
