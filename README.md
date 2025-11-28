@@ -5,7 +5,7 @@
 
 # DCs.AI — Autonomous Monitoring & Telemetry
 
-**DCs.AI** é um projeto dedicado à estruturação da Inteligência Artificial autônoma integrada à blockchain, com foco em monitoramento, telemetria e operações descentralizadas.
+ **<li> DCs.AI** é um projeto dedicado à estruturação da Inteligência Artificial autônoma integrada à blockchain, com foco em monitoramento, telemetria e operações descentralizadas. </li>
 
 ---
 
@@ -50,15 +50,15 @@
 <body>
   <header>
     <main> <h1>
-    <li> <n> 💠DCs.AI💠  </n>
-    <p> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p>
-  </li> </h1>
+    <n> ## 💠DCs.AI💠  </n> </h1>
+    <p> <li> Inteligência Artificial Autônoma para Monitoramento e Telemetria </p> </li>
+   
      
-    <li> <n> <h1> 🧠 Sobre o Projeto </h1>
-      <p> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p>
-    </n> </li>
+     <n> <h1>## 🧠 Sobre o Projeto </h1>
+      <p> <li> O DCs.AI é um sistema de IA projetado para prever erros futuros e otimizar operações digitais.</p> </li>
+    </n> 
     <section>
-    <li> <h1> Links Oficiais 👇 </h1> </li>
+     <h1>## Links Oficiais 👇 </h1> 
       <ul>
         <li> <a href="https://github.com/diegocampagnollo-cell/DCSAI-Project">GitHub</a></li>
         <li> <a href="https://discord.gg/5wbfU4KTA9">Discord</a></li>
@@ -66,13 +66,17 @@
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
       </ul>
    
-      <li> <h1> ☝️ Plano Premium  </h1>
-      <p> 👉 Usuários terão acesso gratuito por <strong>15 a 30 dias</strong>. Depois, planos anuais e mensais estarão disponíveis.</p>
+       <h1> ## 💎 Plano Premium  </h1> 
+        
+<p>  
+  <li> Acesso gratuito por <sg>**15 a 30 dias**</sg> </p> </li>
+<p>         
+  <li> Depois: planos mensais e anuais </p> </li>
+<p>
+  <li> Recursos premium incluem IA avançada, microtransações e descontos. </p> </li>
     
    
-   <li> <p> <h1> 📜 Licença MIT | © 2025 DCs.AI  </h1>
-    </p> </li>
- 
+  <h1>  ## 📜 Licença MIT | © 2025 DCs.AI </h1>
 
   Este projeto está sob a licença MIT.  
   Veja o arquivo (LICENSE) para mais detalhes.
