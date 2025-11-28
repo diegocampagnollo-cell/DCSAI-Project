@@ -84,7 +84,12 @@
   <li> Depois: planos mensais e anuais </p> </li>
 <p>
   <li> Recursos premium incluem IA avançada, microtransações e descontos. </p> </li>
-    
+
+  ---
+
+ <h1> ## 🚀 Instalação e Execução </h1>
+  ⚠️ Em fase de testes. Instruções de execução serão adicionadas após validação dos módulos principais.
+
    
   <h1>  ## 📜 Licença MIT | © 2025 DCs.AI </h1>
 
