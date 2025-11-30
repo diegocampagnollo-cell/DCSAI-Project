@@ -74,6 +74,7 @@
         <li> <a href="https://discord.gg/5wbfU4KTA9">Discord</a></li>
         <li> <a href="https://x.com/DiegoCampa99502">Twitter/X</a></li> 
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
+        <li> <a href="https://www.linkedin.com/in/dcs-ai-project-a1b116398/">LinkedIn</a></li>
       </ul>
    
        <h1> ## 💎 Plano Premium  </h1> 
