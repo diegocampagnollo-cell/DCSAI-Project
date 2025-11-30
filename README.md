@@ -118,7 +118,7 @@ Acesse o portal do projeto via GitHub Pages:
 
 - 🗨️ [Discord Oficial](https://discord.gg/5wbfU4KTA9)  
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
-- In [LinkedIn](https://www.linkedin.com/in/dcs-ai-project-a1b116398/)
+- In   [LinkedIn](https://www.linkedin.com/in/dcs-ai-project-a1b116398/)
 ---
 
 ## 🧠 Tecnologias Utilizadas
