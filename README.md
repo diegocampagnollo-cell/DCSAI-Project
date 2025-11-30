@@ -16,7 +16,7 @@
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
 - 📘 [Facebook](https://facebook.com/diegoscampagnollo)
 - 📄 [Whitepaper](docs/whitepaper_v1.1.pdf) *(em breve)*
-- In [LinkedIn](https://www.linkedin.com/in/dcs-ai-project-a1b116398/)
+- In  [LinkedIn](https://www.linkedin.com/in/dcs-ai-project-a1b116398/)
 ---
 
 ## 🧠 Visão do Projeto
