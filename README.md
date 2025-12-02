@@ -46,23 +46,23 @@
 
 📂 DCsAI/
 
-📂 assets/
+📂 assets/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ# banner.png,painel-app.jpg
 
 📂 core/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# IA + automações
 
-📂 ui/ ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# Painel de telemetria
+📂 ui/ ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ # Painel de telemetria
 
 📂 contracts/ ﾠﾠﾠﾠ   # Token DCSAI + eventos
 
 📂 docs/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ  # Whitepaper, roadmap, branding
 
-📂 configs/
+📂 configs/ﾠﾠﾠﾠﾠﾠﾠ # (Manutenção)🔧
 
-📂 examples/
+📂 examples/ﾠﾠﾠﾠﾠ # (Manutenção)🔧
 
-📂 tests/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ  #ETAPA 1-Testes básicos e isolados,ETAPA 2-Módulos temáticos e variantes,ETAPA 3-Painéis e controle,ETAPA 4-Execuções completas,relatorio_primeiros_testes_dcsai.md
+📂 tests/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ # ETAPA 1-Testes básicos e isolados,ETAPA 2-Módulos temáticos e variantes,ETAPA 3-Painéis e controle,ETAPA 4-Execuções completas,relatorio_primeiros_testes_dcsai.md
 
-📂 tools/
+📂 tools/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ # (Manutenção)🔧 
 
 ---
 
