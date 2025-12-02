@@ -48,11 +48,11 @@
 
 📂 assets/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ# banner.png,painel-app.jpg
 
-📂 core/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# IA + automações
+📂 core/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ# IA + automações (Manutenção)🔧
 
-📂 ui/ ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ # Painel de telemetria
+📂 ui/ ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠ # Painel de telemetria (Manutenção)🔧
 
-📂 contracts/ ﾠﾠﾠﾠ   # Token DCSAI + eventos
+📂 contracts/ ﾠﾠﾠﾠ   # Token DCSAI + eventos (Manutenção)🔧
 
 📂 docs/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ  # Whitepaper, roadmap, branding
 
