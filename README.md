@@ -7,6 +7,23 @@
  **<li> DCs.AI** é um projeto dedicado à estruturação da Inteligência Artificial autônoma integrada à blockchain, com foco em monitoramento, telemetria e operações descentralizadas. </li>
 
 ---
+## 📑 Índice
+
+- [Visão do Projeto](#🧠-visão-do-projeto)
+
+- [Estrutura do Repositório](#📦-estrutura-do-repositório)
+
+- [Instalação e Execução](#🚀-instalação-e-execução)
+
+- [Plano Premium](#💎-plano-premium)
+
+- [Tecnologias Utilizadas](#🧠-tecnologias-utilizadas)
+
+- [Status Atual](#📌-status-atual)
+
+- [Licença](#📜-licença-mit--©-2025-dcsai)
+
+---
 
 ## 🔗 Links Oficiais
 
