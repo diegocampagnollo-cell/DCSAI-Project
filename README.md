@@ -60,7 +60,7 @@
 
 📂 examples/
 
-📂 tests/
+📂 tests/ﾠﾠﾠﾠﾠﾠﾠﾠﾠ  #ETAPA 1-Testes básicos e isolados,ETAPA 2-Módulos temáticos e variantes,ETAPA 3-Painéis e controle,ETAPA 4-Execuções completas,relatorio_primeiros_testes_dcsai.md
 
 📂 tools/
 
