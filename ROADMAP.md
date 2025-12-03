@@ -28,7 +28,7 @@ Publicar no GitHub Pages uma visão geral com imagens e roadmap
 
 Post em português (já feito)
 
-Post em inglês (quando você quiser)
+Post em inglês (manutenção)
 
 Compartilhar em comunidades (Discord, LinkedIn, GitHub)
 
