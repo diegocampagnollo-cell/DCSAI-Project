@@ -1,3 +1,45 @@
+# 📅 Linha do Tempo — DCs.AI Beta
+
+# 🔧 Etapa 1 — Testes Finais
+
+Rodar todas as etapas de /tests/ (isolados, módulos, painéis, execuções completas)
+
+Validar integração entre core ↔ ui ↔ contracts
+
+Gerar logs e revisar erros críticos
+
+# 📘 Etapa 2 — Relatório Consolidado
+
+Criar tests/relatorio_final.md com resultados dos testes
+
+Documentar principais falhas corrigidas e pontos fortes
+
+Adicionar prints ou diagramas simples para ilustrar
+
+# 🚀 Etapa 3 — Release Beta
+
+Criar release no GitHub (v0.9-beta)
+
+Atualizar README.md com instruções de instalação e execução
+
+Publicar no GitHub Pages uma visão geral com imagens e roadmap
+
+# 🌍 Etapa 4 — Divulgação
+
+Post em português (já feito)
+
+Post em inglês (quando você quiser)
+
+Compartilhar em comunidades (Discord, LinkedIn, GitHub)
+
+# 🛠️ Etapa 5 — Feedback
+
+Abrir issues no GitHub para sugestões e bugs
+
+Receber contribuições da comunidade
+
+Planejar melhorias para versão v1.0
+
 # 🛣️ Roadmap DCs.AI — Linha do Tempo
 
 Fase 1 ➡️ Fase 2 ➡️ Fase 3 ➡️ Fase 4 ➡️ Fase 5  
