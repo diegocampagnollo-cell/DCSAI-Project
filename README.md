@@ -134,8 +134,10 @@ Acesse o portal do projeto via GitHub Pages:
 ## 💬 Comunidade
 
 - 🗨️ [Discord Oficial](https://discord.gg/5wbfU4KTA9)  
+
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
-- In [LinkedIn](https://www.linkedin.com/in/diegocampagnollo/)
+
+- Inﾠﾠ[LinkedIn](https://www.linkedin.com/in/diegocampagnollo/)
 
 ---
 
