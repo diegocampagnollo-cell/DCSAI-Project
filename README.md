@@ -5,20 +5,23 @@ Bem-vindo ao DCs.AI — Inteligência Artificial autônoma para monitoramento e 
 ---
 
 ## 🧠 Visão do Projeto
-- Monitoramento descentralizado de sistemas
-- Telemetria em tempo real com segurança criptográfica
-- Aplicações em jogos, redes e ambientes industriais
+- ✅ Monitoramento descentralizado de sistemas
+- ✅ Telemetria em tempo real com segurança criptográfica
+- 🔧 Painel de controle e visualização
+- 📅 Integração futura com blockchain
+- 📅 Aplicações em jogos, redes e ambientes industriais
 
 ---
 
 ## 📦 Estrutura do Repositório (manutenção 🔧)
-📂 assets/ → imagens e banners  
-📂 core/ → IA + automações (em manutenção)  
-📂 ui/ → painel de telemetria (em manutenção)  
-📂 contracts/ → token DCSAI + eventos (em manutenção)  
-📂 docs/ → whitepaper, roadmap, branding  
-📂 tests/ → etapas de testes e relatórios  
-📂 tools/ → utilitários (em manutenção)
+📂 core/ → ✅ Sentinela + automações básicas
+📂 ui/ → 🔧 Painel de telemetria
+📂 contracts/ → 📅 Token DCSAI + eventos
+📂 docs/ → ✅ Whitepaper, roadmap, branding
+📂 tests/ → ✅ Etapas de testes e relatórios
+📂 tools/ → 🔧 Utilitários
+📂 configs/ → 🔧 Configurações
+📂 examples/ → 📅 Exemplos 
 
 ---
 
