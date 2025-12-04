@@ -1,3 +1,10 @@
+# 🚀 DCs.AI — Protótipo Ativo
+
+💡 Inteligência autônoma para monitoramento e telemetria.  
+👤 Fundador: Diego Soares Campagnollo — Dev independente, São Miguel Arcanjo/SP.  
+📅 Roadmap até o Beta já disponível.  
+🔗 Confira: github.com/diegocampagnollo-cell/DCSAI-Project
+
 # DCs.AI — Autonomous Monitoring & Telemetry
 
 Bem-vindo ao DCs.AI — Inteligência Artificial autônoma para monitoramento e telemetria.
