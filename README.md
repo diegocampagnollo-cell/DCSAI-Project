@@ -5,7 +5,6 @@ Bem-vindo ao DCs.AI — Inteligência Artificial autônoma para monitoramento e 
 ---
 
 ## 🧠 Visão do Projeto
-- IA autônoma conectada à blockchain
 - Monitoramento descentralizado de sistemas
 - Telemetria em tempo real com segurança criptográfica
 - Aplicações em jogos, redes e ambientes industriais
