@@ -1,45 +1,61 @@
-# 🌐 DCs.AI — Project Overview
+# 🚀 DCs.AI — Project Overview
 
-## 👁️ Overview
-The **DCs.AI Project** is an ecosystem that integrates **Autonomous Artificial Intelligence** and **Blockchain (BEP‑20)** to deliver solutions for **monitoring, telemetry, and intelligent automation**.  
-Our goal is to build a decentralized, secure, and scalable platform applicable to **gaming, industry, and corporate applications**.
-
----
-
-## 🌍 Mission
-Create an autonomous AI ecosystem that provides monitoring, telemetry, and secure blockchain integration.
-
-## 👁️ Vision
-Become a global reference in decentralized AI solutions, applicable to gaming, industry, and intelligent automation.
+Prototype for autonomous intelligence in monitoring and telemetry.  
+Built independently, focused on servers, gaming, and networks.
 
 ---
 
-## 🧩 Ecosystem Components
-
-- 🔗 **Blockchain (BEP‑20)** — foundation for security and record keeping  
-- 🧠 **AI Core** — coordination, cognitive agents, and automation logic  
-- 🌐 **Applications** — web dashboard, bots, and APIs  
-
----
-
-## 📌 Current Status
-- Initial structure completed  
-- Documentation in progress  
-- Smart contract under testing  
-- Roadmap published  
+## 🎯 Goals
+- ✅ Decentralized system monitoring
+- ✅ Real-time telemetry with cryptographic security
+- 🔧 Control panel and visualization (in progress)
+- 📅 Future blockchain integration
+- 📅 Applications in gaming, networks, and industrial environments
 
 ---
 
-## 📎 Related Documents
-- [TOKEN_INFO.md](TOKEN_INFO.md) — utilities and tokenomics  
-- [ROADMAP.md](ROADMAP.md) — phases and timeline  
-- [SECURITY.md](SECURITY.md) — security practices  
-- [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) — project overview  
+## 🛣️ Roadmap Visual
+
+| 🚀 Phase | 📋 Description | 📌 Status |
+|--------|----------------|-----------|
+| Phase 1 | Initial structure: docs, repository, Discord | ✅ Completed |
+| Phase 2 | Technical development: BEP‑20 contract, AI Core, tests | 🔄 In progress |
+| Phase 3 | External infrastructure: website, APIs, dev guides | 📅 Planned |
+| Phase 4 | Launch: final deploy, audit, outreach | ⏳ Upcoming |
+| Phase 5 | Expansion: new AI modules, multi-network | ⏳ Upcoming |
 
 ---
 
-## 🔮 Next Steps
-- Finalization of BEP‑20 contract  
-- Full integration with AI Core  
-- Launch of web dashboard and APIs  
-- Expansion to multiple networks
+## 📆 Quarterly Roadmap — 2026
+- **Q1**: BEP‑20 contract deploy, initial repo, GitHub Pages  
+- **Q2**: AI Core integration, web panel, first tests  
+- **Q3**: Premium features, initial token distribution, audit  
+- **Q4**: Official launch, campaigns, partnerships  
+
+---
+
+## 🔧 Technology
+- Contract deployment  
+- AI Core integration  
+- Web panel and APIs  
+
+## 💰 Tokenomics
+- Initial distribution  
+- Utility activation  
+- Security audit  
+
+## 🌍 Community
+- Discord launch  
+- Outreach campaigns  
+- Strategic partnerships  
+
+---
+
+## 👤 Founder
+**Diego Soares Campagnollo**  
+Role: Founder / Developer  
+Location: São Miguel Arcanjo – SP, Brazil  
+Contact: dcs.ai.project@gmail.com  
+
+💡 Founder of DCs.AI — prototype for autonomous intelligence in monitoring and telemetry.  
+🚀 Independent developer learning by doing, turning ideas into code with persistence.
