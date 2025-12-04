@@ -32,7 +32,7 @@
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
 - 📘 [Facebook](https://facebook.com/diegoscampagnollo)
 - 📄 [Whitepaper](docs/whitepaper_v1.1.pdf) *(em breve)*
-- In  [LinkedIn](www.linkedin.com/in/diegocampagnollo)
+- In [LinkedIn](https://www.linkedin.com/in/diegocampagnollo/)
 
 ---
 
@@ -91,7 +91,7 @@
         <li> <a href="https://discord.gg/5wbfU4KTA9">Discord</a></li>
         <li> <a href="https://x.com/DiegoCampa99502">Twitter/X</a></li> 
         <li> <a href="https://facebook.com/diegoscampagnollo">Facebook</a></li>
-        <li> <a href="www.linkedin.com/in/diegocampagnollo">LinkedIn</a></li>
+        <li> <a href="https://www.linkedin.com/in/diegocampagnollo/">LinkedIn</a></li>
       </ul>
    
        <h1> ## 💎 Plano Premium  </h1> 
@@ -135,7 +135,7 @@ Acesse o portal do projeto via GitHub Pages:
 
 - 🗨️ [Discord Oficial](https://discord.gg/5wbfU4KTA9)  
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
-- In [LinkedIn](www.linkedin.com/in/diegocampagnollo)
+- In [LinkedIn](https://www.linkedin.com/in/diegocampagnollo/)
 
 ---
 
