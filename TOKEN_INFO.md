@@ -50,12 +50,12 @@
 - Website: https://diegocampagnollo-cell.github.io/DCSAI-Project/
 - GitHub: https://github.com/diegocampagnollo-cell
 - Facebook: https://www.facebook.com/diegoscampagnollo
-- Whitepaper: Em desenvolvimento (versão preliminar em docs/whitepaper/)
+- Whitepaper: https://github.com/diegocampagnollo-cell/DCSAI-Project/tree/main-branch/docs/whitepaper) (versão preliminar em docs/whitepaper/)[Em desenvolvimento]
 - Discord: https://discord.gg/5wbfU4KTA9
 - Twitter/X: https://x.com/DiegoCampa99502
 - Telegram: NONE
-
+- LinkedIn: https://www.linkedin.com/in/diegocampagnollo/
 ---
 
-*Preencha conforme evoluímos o projeto.*
+<s>*Preencha conforme evoluímos o projeto.*</s>
 
