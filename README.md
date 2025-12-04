@@ -31,7 +31,7 @@
 - 💬 [Discord](https://discord.gg/5wbfU4KTA9)
 - 🐦 [Twitter/X](https://x.com/DiegoCampa99502)
 - 📘 [Facebook](https://facebook.com/diegoscampagnollo)
-- 📄 [Whitepaper](docs/whitepaper_v1.1.pdf) *(em breve)*
+- 📄 [Whitepaper](https://github.com/diegocampagnollo-cell/DCSAI-Project/tree/main-branch/docs/whitepaper)
 - In [LinkedIn](https://www.linkedin.com/in/diegocampagnollo/)
 
 ---
