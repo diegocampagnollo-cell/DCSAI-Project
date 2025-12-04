@@ -14,13 +14,21 @@ Bem-vindo ao DCs.AI — Inteligência Artificial autônoma para monitoramento e 
 ---
 
 ## 📦 Estrutura do Repositório (manutenção 🔧)
+
 📂 core/ → ✅ Sentinela + automações básicas
+
 📂 ui/ → 🔧 Painel de telemetria
+
 📂 contracts/ → 📅 Token DCSAI + eventos
+
 📂 docs/ → ✅ Whitepaper, roadmap, branding
+
 📂 tests/ → ✅ Etapas de testes e relatórios
+
 📂 tools/ → 🔧 Utilitários
+
 📂 configs/ → 🔧 Configurações
+
 📂 examples/ → 📅 Exemplos 
 
 ---
