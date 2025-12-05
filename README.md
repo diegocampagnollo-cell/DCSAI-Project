@@ -4,6 +4,7 @@
 👤 Fundador: Diego Soares Campagnollo — Dev independente, São Miguel Arcanjo/SP.  
 📅 Roadmap até o Beta já disponível.  
 🔗 Confira: github.com/diegocampagnollo-cell/DCSAI-Project
+👉https://github.com/diegocampagnollo-cell/DCSAI-Project/tree/main-branch
 
 # DCs.AI — Autonomous Monitoring & Telemetry
 
